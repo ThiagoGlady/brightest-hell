@@ -1,0 +1,37 @@
+.navbar {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-navbar {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar-logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.navbar-links {
+    width: 80%;
+    background-color: rgb(0, 0, 255);
+}
+
+.navbar-links > a{
+    margin: 0px 5%;
+}
+
+.right-navbar {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: blueviolet;
+}
+
