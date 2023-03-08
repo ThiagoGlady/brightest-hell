@@ -14,6 +14,7 @@ conn();
 
 // Routes
 app.use('/character', routes.characterRoute);
+app.use('/user', routes.userRoute);
 
 app.listen(3000, () => {
     console.log('API rodando');
