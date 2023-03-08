@@ -11,9 +11,6 @@ export class NavbarComponent {
   showMenu(event: MouseEvent): void {
     const hamburguer = event.target as HTMLElement;
 
-    console.log('clicado');
-    console.log(hamburguer.classList);
-
     if (hamburguer.classList.contains('activate')) {
       hamburguer.classList.remove('activate');
       this.responsiveMenu.nativeElement.classList.remove('activate');
