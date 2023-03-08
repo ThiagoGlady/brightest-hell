@@ -22,4 +22,9 @@ export class NavbarComponent {
       this.responsiveMenu.nativeElement.classList.add('activate');
     }
   }
+
+  hideMenu(hamburguerButton: HTMLElement): void {
+    this.responsiveMenu.nativeElement.classList.remove('activate');
+    hamburguerButton.classList.remove('activate');
+  }
 }
