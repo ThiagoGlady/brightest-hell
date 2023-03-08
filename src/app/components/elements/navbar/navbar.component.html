@@ -1,10 +1,15 @@
 <header>
     <nav class="navbar">
+        <div class="hamburguer" (click)="showMenu($event)">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
         <div class="left-navbar">
             <div class="navbar-logo">
                 <img id="brightest-hell-logo" src="https://i.imgur.com/Df3cE8N.png" alt="Logo Brightest Hell">
             </div>
-            <div class="navbar-links">
+            <div class="navbar-links" #responsiveMenu>
                 <a routerLink="/">Home</a>
                 <a routerLink="/login">Login</a>
                 <a routerLink="/register">Registre-se</a>
